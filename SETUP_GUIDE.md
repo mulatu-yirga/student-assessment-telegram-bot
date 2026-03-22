@@ -14,22 +14,22 @@ pip install -r requirements.txt
 3. Send: `/newbot`
 4. Choose a name: `Student Assessment Bot`
 5. Choose a username: `your_university_assessment_bot`
-6. **Copy the token** (looks like: `1234567890:ABCdefGHIjklMNOpqrsTUVwxyz`)
+6. **Copy the token** (looks like: `123456789230:ABCdeunmfkifGHIjklMNOpqrsTUVwxyz`)
 
 ### 3. Get Instructor Telegram ID
 
 1. Instructor opens Telegram
 2. Search for `@userinfobot`
 3. Start the bot
-4. **Copy the ID number** (looks like: `123456789`)
+4. **Copy the ID number** (looks like: `01234567890`)
 
 ### 4. Configure bot.py
 
 Open `bot.py` and replace:
 
 ```python
-BOT_TOKEN = "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz"  # Your actual token
-INSTRUCTOR_TELEGRAM_ID = "123456789"  # Instructor's actual ID
+BOT_TOKEN = "1234567890:ABCdefGHIjklMNOpqrsunmTUVwxyz"  # Your actual token
+INSTRUCTOR_TELEGRAM_ID = "01234567890"  # Instructor's actual ID
 ```
 
 ### 5. Add Your Student Data
